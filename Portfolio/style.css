@@ -1,6 +1,3 @@
-
-
-
 :root{
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
@@ -34,7 +31,9 @@ a{
     margin: 0 0 0 10px;
 }
 
-/*Sección Title*/
+
+
+/*Title section*/
 
 .title__div{
     position: relative;
@@ -58,37 +57,20 @@ li{
     margin-left: 25px;
 }
 
-/*Sección Hobbies*/
+/*Académic skills*/
 
-.menu__list__sobre-mi{
-    padding: 5px 83px;
+.skills__box{
+    display: block;
+    padding: 0px 15px 0px 15px;
 }
 
-/* Experiencia Académica*/
+.skills__name{
+    padding: 8px 0px 0px 5px;
 
-.menu__list__skills{
-    padding: 5px 83px;
 }
 
-.menu__list__hobbies{
+.menu__list__skills, .menu__list__hobbies, .menu__list__formacion, .menu__list__proyectos, .menu__list__contacto{
     padding: 5px 83px;
-}
-
-.menu__list__formacion{
-    padding: 5px 83px;
-}
-
-.menu__list__proyectos{
-    padding: 5px 83px;
-}
-
-.menu__list__contacto{
-    padding: 5px 83px;
-}
-
-.barra{
-    padding: 5px 0 0 0;
-
 }
 
 .title__div, .formcontato__contacto{
@@ -101,31 +83,11 @@ li{
     padding-left: 85px;
 }
 
-.title__bio{
+.title__bio, .title__subsection, .title__network{
     padding-bottom: 50px;
 }
 
-.title__subsection{
-    padding-bottom: 50px;
-}
-
-.title__network{
-    margin-top: 50px;
-}
-
-.title__network__github{
-    padding: 0 60px 0 120px;
-}
-
-.title__network__linkedin{
-    padding: 0 60px 0 60px;
-}
-
-.title__network__instagram{
-    padding: 0 60px 0 60px;
-}
-
-.title__network__curriculo{
+.title__network__github, .title__network__linkedin, .title__network__instagram, .title__network__curriculo{
     padding: 0 60px 0 60px;
 }
 
@@ -135,29 +97,86 @@ li{
 
 .skills, .hobbies, .academic, .experience{
     text-align: center;
-    margin: 25px;
+    margin: 25px 0px 15px 0px;
     padding-top: 3px;
 }
 
 .skills__title, .hobbies__title, .academic__title, .experience__section__title{
     font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 5px 0 5px 0;
     background-color: rgba(85, 207, 203, 0.286);
 }
 
+/*Hobbies section*/
 
-.experiencie__box{
+.menu__list__sobre-mi{
+    padding: 5px 83px;
+}
+
+.skills__line, .hobbies__line{
+    display: inline-flex;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.hobbies__box{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.hobbies__name{
+    padding-top: 8px;
+}
+
+
+/*academic formation*/
+
+.academic__courses__item__title{
+    padding: 35px 0 0 15px;
+}
+
+.academic__courses{
     display: flex;
     flex-wrap: wrap;
 }
 
+.academic__courses__box{
+    display: block;
+    width: 30%;
+    margin-top: 2em;
+    padding-top: 20px;
+    background: white;
+    margin-left: 35px;
+    transition: 1s;
+}
+
+.academic__courses__box:hover{
+    box-shadow: 5px 5px 5px hsl(0, 1%, 66%);
+}
+
+.academic__courses__item__title{
+    font-size: 15px;
+}
+
+
+
+/*profesional experience*/
+
 .experience_box_in{
+    display: block;
     width: 45%;
     margin-top: 2em;
     padding-top: 20px;
     background: white;
     margin-left: 35px;
     transition: 1s;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .experience_box_in:hover{
@@ -190,19 +209,10 @@ li{
     margin: 25px;
 }
 
-.skills__line, .hobbies__line, .academic__courses__list, .academic__courses__list1{
-    display: inline-flex;
-    padding: 3px;
-}
 
-.academic__courses__item__img1{
-    margin-top: 50px;
-    margin-left: 125px;
-}
 
-.academic__courses__item__title{
-    padding: 35px 0 0 15px;
-}
+
+/*contact form*/
 
 .formcontato{
     background-color: rgba(85, 207, 203, 0.286);
