@@ -1,0 +1,529 @@
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+.menu__header{
+    display: inline-flex;
+    margin: 1em 0 2em 1em;
+    height: 22px;
+    
+}
+
+.menu__title{
+    margin: 0 0 0 10px;
+}
+
+
+
+/*Title section*/
+
+.title__div{
+    position: relative;
+    margin: 0 20px 15px 200px;
+}
+
+
+.menu__list{
+    display: inline-flex;
+    font-size: 20px;
+    margin: 5px 0 5px 5px;
+    padding: 5px 0 5px 5px;
+    background-color: rgba(85, 207, 203, 0.286);
+}
+
+li{
+    float: left;
+}
+
+.about__container{
+    margin-left: 25px;
+}
+
+/*Académic skills*/
+
+.skills__box{
+    display: block;
+    padding: 0px 15px 0px 15px;
+}
+
+.skills__name{
+    padding: 8px 0px 0px 5px;
+
+}
+
+.menu__list__skills, .menu__list__hobbies, .menu__list__formacion, .menu__list__proyectos, .menu__list__contacto{
+    padding: 5px 83px;
+}
+
+.title__div, .formcontato__contacto{
+    display:inline-flex;
+    margin: 25px 10px;
+}
+
+.title__container{
+    padding-top: 35px;
+    padding-left: 85px;
+}
+
+.title__bio, .title__subsection, .title__network{
+    padding-bottom: 50px;
+}
+
+.title__network__github, .title__network__linkedin, .title__network__instagram, .title__network__curriculo{
+    padding: 0 60px 0 60px;
+}
+
+.about__title{
+    text-align: center;
+}
+
+.skills, .hobbies, .academic, .experience{
+    text-align: center;
+    margin: 25px 0px 15px 0px;
+    padding-top: 3px;
+}
+
+.skills__title, .hobbies__title, .academic__title, .experience__section__title{
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px 0 5px 0;
+    background-color: rgba(85, 207, 203, 0.286);
+}
+
+/*Hobbies section*/
+
+.menu__list__sobre-mi{
+    padding: 5px 83px;
+}
+
+.skills__line, .hobbies__line{
+    display: inline-flex;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.hobbies__box{
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+}
+
+.hobbies__name{
+    padding-top: 8px;
+}
+
+
+/*academic formation*/
+
+.academic__courses__item__title{
+    padding: 35px 0 0 15px;
+}
+
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.academic__courses__box{
+    display: block;
+    width: 30%;
+    margin-top: 2em;
+    padding-top: 20px;
+    background: white;
+    margin-left: 35px;
+    transition: 1s;
+}
+
+.academic__courses__box:hover{
+    box-shadow: 5px 5px 5px hsl(0, 1%, 66%);
+}
+
+.academic__courses__item__title{
+    font-size: 15px;
+}
+
+
+
+/*profesional experience*/
+
+.experience_box_in{
+    display: block;
+    width: 45%;
+    margin-top: 2em;
+    padding-top: 20px;
+    background: white;
+    margin-left: 35px;
+    transition: 1s;
+}
+
+.experiencie__box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience_box_in:hover{
+    box-shadow: 5px 5px 5px hsl(0, 1%, 66%);
+}
+
+.experience_img_in{
+    display:block;
+}
+
+.experiencia__botao--repo, .experience__botao--demo{
+    background: rgb(141, 141, 252);
+    width: 95px;
+    height: 25px;
+    border: rgb(141, 141, 252);
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.experiencia__botao--repo:hover{
+    box-shadow: 4px 4px 4px hsl(0, 1%, 66%);
+}
+
+.experience__botao--demo:hover{
+    box-shadow: 4px 4px 4px hsl(0, 1%, 66%);
+}
+
+
+.experience__info{
+    margin: 25px;
+}
+
+
+
+
+/*contact form*/
+
+.formcontato{
+    background-color: rgba(85, 207, 203, 0.286);
+    margin: 85px 0 5px 0;
+}
+
+.formcontato__text{
+    margin-left: 35px;
+}
+
+.formcontato__subtext{
+    height: 8%;
+    margin: 5px 0px 5px 150px;
+}
+
+.formcontato__form{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.formcontato__input__text, .formcontato__input__email,.formcontato__input__text1, .formcontato__textarea, .formcontato__botao{
+    margin: 5px;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    
+}
+
+.box2{
+    padding: 0 0 0 250px;
+}
+
+
+
+
+
+
+
+/*footeer*/
+
+.footer__rodape{
+    display: inline-flex;
+    font-size: 10px;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+
+    .menu__list__sobre-mi{
+        padding: 5px 10px;
+    }
+    
+    /* Experiencia Académica*/
+    
+    .menu__list__skills{
+        padding: 5px 20px;
+    }
+    
+    .menu__list__hobbies{
+        padding: 5px 20px;
+    }
+    
+    .menu__list__formacion{
+        padding: 5px 20px;
+    }
+    
+    .menu__list__proyectos{
+        padding: 5px 20px;
+    }
+    
+    .menu__list__contacto{
+        padding: 5px 20px;
+    }
+
+    .title__network__github{
+        padding: 0 60px 0 60px;
+    }
+    
+    .title__network__linkedin{
+        padding: 0 60px 0 60px;
+    }
+    
+    .title__network__instagram{
+        padding: 0 60px 0 60px;
+    }
+    
+    .title__network__curriculo{
+        padding: 0 60px 0 60px;
+    }
+
+    .experience__info{
+        width: 100%;
+        height: 100%;
+    }
+
+    .experience__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .formcontato{
+        background-color: rgba(85, 207, 203, 0.286);
+        margin: 85px 0 5px 0;
+    }
+    
+    .formcontato__text{
+        margin-left: 35px;
+    }
+    
+    .formcontato__subtext{
+        height: 8%;
+        margin: 5px 0px 5px 35px;
+    }
+    
+    .formcontato__form{
+        display: inline-block;
+        margin-left: 250px;
+    }
+    
+    .formcontato__input__text, .formcontato__input__email,.formcontato__input__text1, .formcontato__textarea, .formcontato__botao{
+        margin: 3px;
+        width: 80%;
+        height: 100%;
+        padding: 5px;
+        
+    }
+    
+    .box2{
+        margin-top: 20px;
+        padding: 15px 0 0 50px;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 425px) {
+
+    .menu__header{
+        font-size: 10px;
+    }
+
+    .title__div{
+        width: 350px;
+        height: 350px;
+        display: inline-block;
+    }
+
+    .title__container{
+        padding: 15px 15px;
+        text-align: justify;
+    }
+
+    .title__bio{
+        font-size: 15px;
+        padding-bottom: 0px;
+    }
+
+    .title__subsection{
+        font-size: 15px;
+        padding-bottom: 0px;
+        width: 325px;
+    }
+
+    .title__network{
+        display: inline-block;
+        font-size: 15px;
+        padding: 0 0 0 0;
+        margin: 15px 0px;
+        width: 350px;
+    }
+
+    .menu__list__sobre-mi{
+        font-size: small;
+        padding: 5px 4px;
+    }
+    
+    .menu__list__skills{
+        font-size: small;
+        padding: 5px 4px;
+    }
+    
+    .menu__list__hobbies{
+        font-size: small;
+        padding: 5px 4px;
+    }
+    
+    .menu__list__formacion{
+        font-size: small;
+        padding: 5px 4px;
+    }
+    
+    .menu__list__proyectos{
+        font-size: small;
+        padding: 5px 4px;
+    }
+    
+    .menu__list__contacto{
+        font-size: small;
+        padding: 5px 4px;
+    }
+
+    .title__network__github{
+        padding: 0 5px;
+    }
+    
+    .title__network__linkedin{
+        padding: 0 5px;
+    }
+    
+    .title__network__instagram{
+        padding: 0 5px;
+    }
+    
+    .title__network__curriculo{
+        padding: 0 5px;
+    }
+
+    .skills{
+        margin: 25px 10px;
+    }
+
+    .skills__box{
+        width: 25%;
+        height: 25%;
+        font-size: 12px;
+    }
+
+    .hobbies{
+        margin: 25px 10px;
+    }
+
+    .hobbies__line{
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+    }
+
+    .hobbies__box{
+        width: 20%;
+        height: 20%;
+        font-size: 12px;
+    }
+
+    .academic__courses__list{
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .academic__courses__item__img, .academic__courses__item__img1{
+        margin-left: 65px;
+    }
+
+    .academic__courses__item__img1{
+        margin-top: 20px;
+    }
+
+    h4{
+        margin: 7px;
+    }
+
+    .academic__courses__item__title{
+        font-size: 10px;
+        padding-top: 0px;
+        padding-left: 65px;
+    }
+
+    .experience__info{
+        width: 100%;
+        height: 100%;
+    }
+
+    .experience__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .formcontato{
+        background-color: rgba(85, 207, 203, 0.286);
+        margin: 85px 0 5px 0;
+    }
+
+    .formcontato__img{
+        width: 100px;
+        height: 100px;
+        margin-top: 100px;
+    }
+    
+    .formcontato__text{
+        margin-left: 35px;
+    }
+    
+    .formcontato__subtext{
+        height: 8%;
+        margin: 5px 0px 5px 35px;
+        font-size: 15px;
+    }
+    
+    .formcontato__form{
+        display: inline-block;
+        margin-left: 250px;
+    }
+    
+    .formcontato__input__text, .formcontato__input__email,.formcontato__input__text1, .formcontato__textarea, .formcontato__botao{
+        width: 80%;
+        height: 100%;
+        padding: 5px;
+        
+    }
+    
+    .box2{
+        margin-top: 20px;
+        padding: 15px 0 0 0px;
+    }
+}
